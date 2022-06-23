@@ -51,11 +51,11 @@ body {
 }
 
 .nav-item:first-child {
-    /* margin-left: 260px; */
+    margin-left: 260px;
 }
 
 .nav-item:last-child {
-    /* margin-right: 260px; */
+    margin-right: 260px;
 }
 
 .nav-link {
