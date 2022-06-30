@@ -84,6 +84,13 @@ body {
     line-height: 1.19;
 }
 
+.order-button:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 700;
+}
+
 .hero {
     width: 100%;
     margin:0 auto;
@@ -164,7 +171,7 @@ body {
 .discount {
     background-color: var(--secondary-bgc);
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
@@ -173,9 +180,132 @@ body {
 }
 
 .discount-container {
+    margin-left: 158px;
+    width: 370px;
 }
 
 .discount-item-title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.18;
+}
+
+.discount-item-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.7;
+}
+
+.discount-price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.1em;
+    color: var(--accent-color);
+}
+
+.old-price {
+    font-size: 16px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.discount-button {
+    margin-top: 15px;
+    display: block;
+}
+
+.discount-menu {
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.discount-menu-title {
+    display: none;
+}
+
+.discount-menu-list {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dairy-queen {
+    background-image: url(/img/dairy-queen.png);
+    background-size: cover;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-left: 290px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pizza-hut {
+    background-image: url(/img/pizza-hut.png);
+    background-size: cover;
+    margin-bottom: 30px;
+    padding: 30px 250px 30px 50px;
+}
+
+.burger-king {
+    background-image: url(/img/burger-king.png);
+    background-size: cover;
+    margin-right: 30px;
+    padding-left: 290px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.papa-johns {
+    background-image: url(/img/papa-johns.png);
+    background-size: cover;
+    padding: 30px 250px 30px 50px;
 
 }
 
+.discount-menu-item-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.17;
+}
+
+.discount-menu-item-descr {
+    width: 260px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    opacity: 0.7;
+}
+
+.reviews {
+    margin-top: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-title {
+    display: none;
+}
+
+/* .reviews-photo {
+    opacity: 0.3;
+    border: 1px dashed #F6762C;
+    border-radius: 50%;
+} */
+
+.center-img {
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #F6762C;
+    border-radius: 50%;
+}
+
+.left-top-img {
+    position: absolute;
+}
